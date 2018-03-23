@@ -119,10 +119,20 @@
             "uri" : "cube.bin"
         }
     ], 
+    "images" : [
+        {
+            "uri" : "Tulips.png"
+        }
+    ], 
     "materials" : [
         {
             "name" : "Material.003", 
             "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 0,
+                    "texCoord": 0
+                    
+                }, 
                 "roughnessFactor" : 0.5090909004211426
             }
         }
@@ -177,6 +187,9 @@
             ]
         }
     ], 
+    "samplers" : [
+        {}
+    ], 
     "scene" : 0, 
     "scenes" : [
         {
@@ -186,6 +199,12 @@
                 2, 
                 1
             ]
+        }
+    ], 
+    "textures" : [
+        {
+            "sampler" : 0, 
+            "source" : 0
         }
     ]
 }
