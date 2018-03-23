@@ -119,6 +119,28 @@
             "uri" : "cube.bin"
         }
     ], 
+    "images" : [
+        {
+            "uri" : "Tulips.png"
+        }
+    ], 
+    "materials" : [
+        {
+            "name" : "Material.002", 
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.6400000190734865, 
+                    0.6400000190734865, 
+                    0.6400000190734865, 
+                    1.0
+                ], 
+                "baseColorTexture" : {
+                    "index" : 0
+                }, 
+                "metallicFactor" : 0.0
+            }
+        }
+    ], 
     "meshes" : [
         {
             "name" : "Cube", 
@@ -130,7 +152,8 @@
                         "TANGENT" : 3, 
                         "TEXCOORD_0" : 4
                     }, 
-                    "indices" : 0
+                    "indices" : 0, 
+                    "material" : 0
                 }
             ]
         }
@@ -154,6 +177,9 @@
             ]
         }
     ], 
+    "samplers" : [
+        {}
+    ], 
     "scene" : 0, 
     "scenes" : [
         {
@@ -162,6 +188,12 @@
                 1, 
                 0
             ]
+        }
+    ], 
+    "textures" : [
+        {
+            "sampler" : 0, 
+            "source" : 0
         }
     ]
 }
