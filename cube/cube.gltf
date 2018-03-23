@@ -119,18 +119,11 @@
             "uri" : "cube.bin"
         }
     ], 
-    "images" : [
-        {
-            "uri" : "Tulips.png"
-        }
-    ], 
     "materials" : [
         {
             "name" : "Material.003", 
             "pbrMetallicRoughness" : {
-                "baseColorTexture" : {
-                    "index" : 0
-                }, 
+                "roughnessFactor" : 0.5090909004211426
             }
         }
     ], 
@@ -153,6 +146,20 @@
     ], 
     "nodes" : [
         {
+            "name" : "Camera", 
+            "rotation" : [
+                0.638465166091919, 
+                0.43902865052223206, 
+                -0.07774817943572998, 
+                0.6273525953292847
+            ], 
+            "translation" : [
+                1.029360294342041, 
+                -4.449533462524414, 
+                7.947878360748291
+            ]
+        }, 
+        {
             "mesh" : 0, 
             "name" : "Cube", 
             "translation" : [
@@ -162,25 +169,23 @@
             ]
         }, 
         {
+            "name" : "Point", 
             "translation" : [
+                -1.2638769149780273, 
+                1.8437142372131348, 
+                -3.25242280960083
             ]
         }
-    ], 
-    "samplers" : [
-        {}
     ], 
     "scene" : 0, 
     "scenes" : [
         {
             "name" : "Scene", 
             "nodes" : [
+                0, 
+                2, 
+                1
             ]
-        }
-    ], 
-    "textures" : [
-        {
-            "sampler" : 0, 
-            "source" : 0
         }
     ]
 }
