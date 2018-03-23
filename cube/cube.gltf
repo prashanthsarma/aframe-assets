@@ -126,18 +126,11 @@
     ], 
     "materials" : [
         {
-            "name" : "Material.002", 
+            "name" : "Material.003", 
             "pbrMetallicRoughness" : {
-                "baseColorFactor" : [
-                    0.6400000190734865, 
-                    0.6400000190734865, 
-                    0.6400000190734865, 
-                    1.0
-                ], 
                 "baseColorTexture" : {
                     "index" : 0
                 }, 
-                "metallicFactor" : 0.0
             }
         }
     ], 
@@ -169,11 +162,7 @@
             ]
         }, 
         {
-            "name" : "Sun", 
             "translation" : [
-                -4.309370040893555, 
-                -3.1023216247558594, 
-                -9.5367431640625e-07
             ]
         }
     ], 
@@ -185,8 +174,6 @@
         {
             "name" : "Scene", 
             "nodes" : [
-                1, 
-                0
             ]
         }
     ], 
